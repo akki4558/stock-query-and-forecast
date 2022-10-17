@@ -1,0 +1,124 @@
+.search{
+
+	width: 750rpx;
+	height: 80rpx;
+	font-size: 30rpx;
+	background-color: #00ff00;
+	
+}
+.stockIn{
+	height: 150rpx;
+	font-size: 40rpx;
+}
+.midImg{
+	width:750rpx;
+	height: 350rpx;
+}
+.lowImg{
+	width:375rpx;
+	height: 300rpx;
+}
+
+.miniImg{
+	width:30px;
+	height: 30px;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.button-hover{
+	background-color: "#FFC125";
+}
+.exp{
+	height: 100rpx;
+	background-color: #000000;
+}
+text{
+	color: #ffaa00;
+	font-size: 40rpx;
+}
+.textColor{
+	color: #000000;
+}
+.place{
+	height: 4rpx;
+	background-color: #55aaff;
+}
+.place2{
+	height: 455rpx;
+	width: 750rpx;
+	background-color: #ffffff;
+}
+.phoneIn{
+	height: 80rpx;
+	width: 620rpx;
+	font-size: 40rpx;
+	background-color: #FFFFFF;
+}
+.phoneBack{
+	height: 250rpx;
+	font-size: 40rpx;
+	background-color: #F1F1F1;
+}
+.place3{
+	height: 80rpx;
+	width: 375rpx;
+	background-color: #F1F1F1;
+}	
+	
+.place4{
+	height: 150rpx;
+	width: 750rpx;
+	background-color: #F1F1F1;
+}
+.place5{
+	height: 280rpx;
+	width: 750rpx;
+	background-color: #F1F1F1;
+}
+.place6{
+	height: 100rpx;
+	width: 300rpx;
+	background-color: #F1F1F1;
+}	
+.textHis{
+	font-size: 40rpx;
+	color: #000000;
+}
+.place7{
+	height: 100rpx;
+	width: 100rpx;
+	background-color: #F1F1F1;
+}
+.place8{
+	height: 250rpx;
+	width: 750rpx;
+	background-color: #F1F1F1;
+}	
+.hisItem{
+	font-size: 30rpx;
+	color: #000000;
+}	
+.place9{
+	height: 125rpx;
+	width: 650rpx;
+	background-color: #F1F1F1;
+}	
+.setting{
+	height: 1545rpx;
+	width: 750rpx;
+	background-color: #F1F1F1;
+}	
+.news{
+	height: 1000rpx;
+	width: 750rpx;
+	background-color: #F1F1F1;
+}	
+

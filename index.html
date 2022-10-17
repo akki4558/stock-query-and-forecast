@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>hello</title>
+	<script src="vue.js" type="text/javascript" charset="UTF-8"></script>
+    <!--preload-links-->
+    <!--app-context-->
+  </head>
+  <body>
+    <div id="app">
+		{{ message }}
+		
+		<h1 v-for="item in name">{{item}}</h1>
+		<button v-on:click="f">hello</button>
+		<a v-html="game"></a><br>
+		<h2 v-bind:font="{color:red}">{{message}}</h2>
+	</div>
+    <script type="text/javascript">
+	var vm = new Vue({
+		el:'#app',
+		data:{
+			//message:'helle world',
+			//name:['Q','W','E','R'],
+			//game:'<a href="http://www.youkia.com/index.php/pvz/s1">植物大战僵尸OL</a>'
+			},
+			isActive:true,
+			isLine:true,
+		methods:{
+			f:function (){
+				console.log("hello");
+			}
+		},
+		beforeCreate : function () {
+			console.log("start");
+		}	,
+	    mounted : function() {
+	    	console.log("end");
+	    }});
+	
+	</script>
+  </body>
+</html>
